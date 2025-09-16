@@ -1,0 +1,77 @@
+
+/* Center the heading */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+
+/* Layout for the forecast cards */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+/* Card row container (optional, for future use) */
+.weather-forecast-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  border: 1px solid #ccc;
+  background: none;
+  box-shadow: none;
+}
+
+/* Individual weather card styling */
+.weather-forecast-card {
+  flex: 1 1 0;
+  min-width: 160px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  padding: 2rem 1rem;
+  border-right: 1px solid #ccc;
+  background: none;
+  box-shadow: none;
+}
+
+.weather-forecast-card:last-child {
+  border-right: none;
+}
+
+.weather-forecast-card h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.weather-forecast-card p {
+  color: #fff;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.weather-forecast-card span {
+  font-weight: bold;
+  color: #fff;
+}
+
+.weather-forecast-card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
